@@ -1,0 +1,20 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data and Models
+data/
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.onnx
+
+# Environment & IDE
+.venv/
+env/
+venv/
+.vscode/
+.idea/
