@@ -47,3 +47,4 @@ class Config:
         os.makedirs(cls.CHECKPOINT_DIR, exist_ok=True)
         os.makedirs(cls.OUTPUT_DIR, exist_ok=True)
         os.makedirs(cls.DATA_DIR, exist_ok=True)
+# Data loader parameters optimized
