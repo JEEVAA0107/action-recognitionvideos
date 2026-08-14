@@ -112,3 +112,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     predict_video_action(args.video_path, args.checkpoint_path, args.output_path, args.device)
+# Adjusted bounding box configuration
