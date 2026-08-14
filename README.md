@@ -60,3 +60,29 @@ Our solution approaches the problem of action recognition by treating videos not
 4. **Transfer Learning:** By using weights pre-trained on the massive Kinetics-400 dataset, the model rapidly converges and achieves high validation accuracy (98%+) within just a few epochs on our 10-class UCF101 subset.
  
  
+
+## Evaluation Results
+
+```text
+Test Top-1 Accuracy: 98.51%
+Test Top-5 Accuracy: 100.00%
+Average Inference Latency: 5.14 ms
+
+Classification Report:
+                precision    recall  f1-score   support
+
+       Archery       0.96      1.00      0.98        23
+    Basketball       1.00      0.95      0.98        21
+        Biking       1.00      0.95      0.98        21
+       Bowling       1.00      0.96      0.98        24
+BoxingPunching       0.00      0.00      0.00         0
+        Diving       1.00      1.00      1.00        23
+       Fencing       0.95      1.00      0.97        18
+     GolfSwing       1.00      1.00      1.00        22
+   HorseRiding       0.96      1.00      0.98        26
+SoccerJuggling       1.00      1.00      1.00        23
+
+      accuracy                           0.99       201
+     macro avg       0.89      0.89      0.89       201
+  weighted avg       0.99      0.99      0.99       201
+```
