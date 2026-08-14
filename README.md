@@ -57,3 +57,4 @@ Our solution approaches the problem of action recognition by treating videos not
 2. **Data Augmentation:** To prevent overfitting, we apply spatial resizing (112x112), Random Horizontal Flipping, and ImageNet standardization.
 3. **Model Architecture:** We utilize a pre-trained **R(2+1)D-18 3D Convolutional Neural Network**. Unlike standard 2D CNNs, R(2+1)D factorizes 3D convolutions into a 2D spatial convolution followed by a 1D temporal convolution. This makes it highly efficient and exceptionally good at understanding motion over time.
 4. **Transfer Learning:** By using weights pre-trained on the massive Kinetics-400 dataset, the model rapidly converges and achieves high validation accuracy (98%+) within just a few epochs on our 10-class UCF101 subset.
+ 
